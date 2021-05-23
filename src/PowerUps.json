@@ -12,5 +12,13 @@
         "price": 50,
         "multi": "music",
         "photo": "https://imagazine.pl/wp-content/uploads/2015/07/itunesicon2.jpg"
+    },
+
+    {
+        "name": "Obostrzenia",
+        "desc": "Zwiększa o 1 skuteczność w walce z COVID-19",
+        "price": 50,
+        "multi": 1,
+        "photo": "https://lh3.googleusercontent.com/proxy/AyrKcgmUzNLRk5yxH384sR5B6LGDCQEj393wncRgOPl-Gy_5caOWdjZzzBZmvd5EjFdqArWzYgBj1bL2b7a3MeIGYmmTncNsd2SSVr0UsysuDGsEH8_dgqGWDUuz3qDM4m8tQGhObpYd0rGo-sSQdSLcq85vGroCKdGOqDmmh6vj66_9zDXeKw"
     }
 ]
