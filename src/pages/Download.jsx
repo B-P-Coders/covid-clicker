@@ -1,22 +1,12 @@
 import * as styles from "../styles/Download.module.css"
+import DownloadBtn from "../components/DownloadBtn.jsx"
 
 export default function Download() {
     return (
-        <div>
-            <i className={styles.downloadONE + " fab fa-windows"}></i>
-            <i className={styles.downloadTWO + " fab fa-apple"}> </i>
-            <i className={styles.downloadTHREE + " fab fa-linux"}> </i>
-            <div className={styles.downloadTEXT}>
-                <a href="https://github.com/B-P-Coders/covid-clicker-desktop/releases/download/v1.0.0/covid-clicker_win-64_1.0.0.exe">
-                    <h1 className={styles.downloadTEXT_ONE}>Windows</h1>
-                </a>
-                <a href="https://github.com/B-P-Coders/covid-clicker-desktop/releases/download/v1.0.0/covid-clicker_osx-64_1.0.0.dmg">
-                    <h2 className={styles.downloadTEXT_TWO}>MAC</h2>
-                </a>
-                <a href="https://github.com/B-P-Coders/covid-clicker-desktop/releases/download/v1.0.0/linux64.tar.gz">
-                    <h3 className={styles.downloadTEXT_THREE}><b>Linux</b></h3>
-                </a>
-            </div>
+        <div className={styles.main}>
+            <DownloadBtn name = "Windows" link = "https://github.com/B-P-Coders/covid-clicker-desktop/releases/download/v1.0.0/covid-clicker_win-64_1.0.0.exe" icon = "fab fa-windows" font = "Segoe"/>
+            <DownloadBtn name = "MAC" link = "https://github.com/B-P-Coders/covid-clicker-desktop/releases/download/v1.0.0/covid-clicker_osx-64_1.0.0.dmg" icon = "fab fa-apple"/>
+            <DownloadBtn name = "Linux" link = "https://github.com/B-P-Coders/covid-clicker-desktop/releases/download/v1.0.0/linux64.tar.gz" icon = "fab fa-linux" font = "Edwardian Script ITC"/>
         </div>
 
     )

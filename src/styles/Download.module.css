@@ -1,36 +1,4 @@
-.downloadONE {
-    margin-left:35vmin;
-    font-size: 25vmin;
-    margin-top: 11vmin
-}
-
-.downloadTWO {
-    margin-left: 32vmin;
-    font-size: 25vmin;
-    margin-top: 11vmin
-}
-
-.downloadTHREE {
-    margin-left: 27vmin;
-    font-size: 25vmin;
-    margin-top: 11vmin
-}
-
-.downloadTEXT {
-    margin-top: 7vmin;
-    font-size: 6vmin;
-}
-
-.downloadTEXT_ONE {
-    margin-left: 34vmin;
-    font-family: Segoe;
-}
-
-.downloadTEXT_TWO {
-    margin-left: 35.5vmin;
-}
-
-.downloadTEXT_THREE {
-    margin-left: 33vmin;
-    font-family: Edwardian Script ITC;
+.main {
+    display: flex;
+    flex-direction: row;
 }

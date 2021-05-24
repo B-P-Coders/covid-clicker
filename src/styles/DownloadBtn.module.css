@@ -1,0 +1,20 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    margin-left:35vmin;
+    font-size: 25vmin;
+    margin-top: 11vmin
+}
+
+
+.text {
+    margin-left: 34vmin;
+    margin-top: 7vmin;
+    font-size: 6vmin;
+    color: var(--text-color);
+}
