@@ -17,6 +17,7 @@
     justify-content: space-evenly;
     align-items: center;
     width: 70%;
+    word-break: keep-all;
 }
 
 .burger {
@@ -43,7 +44,7 @@
         bottom: 5vh;
         background-color: var(--primary-color);
         justify-content: space-around;
-        width: 50%;
+        width: 75%;
         display: flex;
         flex-direction: column;
         align-items: center;
