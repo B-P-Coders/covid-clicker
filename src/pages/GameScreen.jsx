@@ -10,9 +10,21 @@ import music from "../music.json";
 let newCases;
 const date = new Date();
 let winTime;
+let day = date.getDate()-1
+let month
+let da
+let d
+ { day>1 ? 
+   (month = date.getMonth() )  :   (month = date.getMonth())  } 
+   { day>1 ? 
+    ( da = date.getDate()-2 )  :   ( (date.getMonth()+1)== (1 || 3||5||7||8||10||12)?   da =31 : da =30 )  } 
+  
+    { day>1 ? 
+      ( d = date.getDate()-1 )  :   ( date.getMonth()== (1 || 3||5||7||8||10||12)?   d =30 : d =31 )  } 
+    
 
-var valuT = "2021-" + (date.getMonth() + 1) + "-" + (date.getDate() - 1);
-var valuY = "2021-" + (date.getMonth() + 1) + "-" + (date.getDate() - 2);
+var valuT = "2021-" + month + "-" + (d);
+var valuY = "2021-" +    month    + "-" + da;
 let musicPlayer = null;
 
 console.log(valuY, valuT);

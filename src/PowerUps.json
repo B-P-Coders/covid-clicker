@@ -2,7 +2,7 @@
     {
         "name": "Kot Prezesa",
         "desc": "Pożera dodatkowe 2 koronawirusy podczas kadego kliknięcia",
-        "price": 1000,
+        "price": 500,
         "multi": 2,
         "photo": "https://pbs.twimg.com/profile_images/1111796873348698112/iUCukU8Q_400x400.jpg"
     },
@@ -17,7 +17,7 @@
     {
         "name": "Obostrzenia",
         "desc": "Zwiększa o 1 skuteczność w walce z COVID-19",
-        "price": 500,
+        "price": 200,
         "multi": 1,
         "photo": "https://www.radiobiper.info/wp-content/uploads/2020/09/20_09_24_koronawirus_grafika.jpg"
     }
