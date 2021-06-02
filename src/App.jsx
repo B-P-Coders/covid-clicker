@@ -7,7 +7,6 @@ import About from "./pages/About";
 import Download from "./pages/Download";
 import { CookiesProvider } from 'react-cookie';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Widget from "./components/Donate"
 
 export default function App() {
   return (
