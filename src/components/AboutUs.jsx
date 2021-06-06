@@ -26,7 +26,7 @@ export default function AboutUs() {
       {we.map((x, key) =>
         <a key={key} href={"https://github.com/" + x.name}>
           <div className={styles.devicon} title={x.name}>
-            <img src={x.picture} />
+            <img alt = "icon" src={x.picture} />
           </div>
         </a>
       )}
