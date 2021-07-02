@@ -34,8 +34,7 @@ fetch(
   "T00:00:00Z&to=" + valuT + "T00:00:00Z",
 )
   .then((res) => res.json())
-  .then((res) => newCases = res[1]["Cases"] - res[0]["Cases"]);
-
+  .then((res) => newCases = res[1]["Cases"] - res[0]["Cases"]  );
 export default function GameScreen() {
   let [clicks, setClicks] = useState(0);
   let [Time, setTime] = useState(0);
@@ -59,10 +58,10 @@ export default function GameScreen() {
   );
 
   function onWin() {
+    if (newCases<=0){newCases=300}
     if (clicks >= newCases) {
       if (!winTime)
         winTime = performance.now()
-      console.log(winTime)
       return (
         <Win score={clicks} time={Math.floor(winTime / 1000)} />
       )
