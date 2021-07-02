@@ -25,7 +25,7 @@ export default function About() {
         </div>
         <ul id="5">
           <li>
-            mailowy, na adres <span className= {styles.kontakt}>B.P.Studio@INT.PL</span>
+            mailowy, na adres <span className= {styles.kontakt}>bp.coders@interia.pl</span>
           </li>
           <li>
             lub telefoniczny, na numer <span className= {styles.kontakt}>+48 602 622 102</span>
