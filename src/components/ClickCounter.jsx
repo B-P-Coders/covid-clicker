@@ -1,7 +1,6 @@
 import * as styles from "../styles/ClickCounter.module.css";
 import "react-notifications-component/dist/theme.css";
 export default function ClickCounter({ clickCount, clicksToWin, time }) {
-
   return (
     <div className={styles.counter}>
       { clickCount > (Math.round(clicksToWin/2)-10) && clickCount < (Math.round(clicksToWin/2)+10)  ? (<div className={styles.text}>Gratulacje! Liczba twoich kliknięć jest równa połowie nowych zakażeń na Covid-19 w Polsce.</div>) : ("")}
