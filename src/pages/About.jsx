@@ -1,5 +1,9 @@
+import ReactGA from 'react-ga';
 import * as styles from "../styles/About.module.css";
 import AboutUs from "../components/AboutUs.jsx";
+
+ReactGA.initialize('G-LM6F4L305Y');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 export default function About() {
   return (

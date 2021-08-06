@@ -1,5 +1,9 @@
+import ReactGA from 'react-ga';
 import * as styles from "../styles/Download.module.css"
 import DownloadBtn from "../components/DownloadBtn.jsx"
+
+ReactGA.initialize('G-LM6F4L305Y');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 export default function Download() {
     return (

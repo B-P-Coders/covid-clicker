@@ -1,4 +1,8 @@
+import ReactGA from 'react-ga';
 import * as styles from "../styles/Contact.module.css";
+
+ReactGA.initialize('G-LM6F4L305Y');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 export default function Contact() {
   return (

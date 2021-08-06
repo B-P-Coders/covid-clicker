@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ReactGA from 'react-ga';
 import * as styles from "../styles/GameScreen.module.css";
 import ClickCounter from "../components/ClickCounter";
 import Virus from "../components/Virus";
@@ -6,6 +7,9 @@ import Win from "../components/Win";
 import PowerUpsTab from "../components/PowerUpsTab";
 import Advert from "../components/Advert";
 import music from "../music.json";
+
+ReactGA.initialize('G-LM6F4L305Y');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 let newCases;
 const date = new Date();
