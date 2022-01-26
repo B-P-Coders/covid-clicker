@@ -11,6 +11,9 @@ import music from "../music.json";
 ReactGA.initialize('G-LM6F4L305Y');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
+
+
+
 let newCases;
 const date = new Date();
 let winTime;
@@ -26,7 +29,7 @@ let d
     { day>1 ? 
       ( d = date.getDate()-1 )  :   ( date.getMonth()== (1 || 3||5||7||8||10||12)?   d =30 : d =31 )  } 
     
-
+month=month+1;
 var valuT = "2021-" + month + "-" + (d);
 var valuY = "2021-" +    month    + "-" + da;
 let musicPlayer = null;
@@ -39,6 +42,10 @@ fetch(
 )
   .then((res) => res.json())
   .then((res) => newCases = res[1]["Cases"] - res[0]["Cases"]  );
+
+console.log(newCases);
+
+  
 export default function GameScreen() {
   let [clicks, setClicks] = useState(0);
   let [Time, setTime] = useState(0);
